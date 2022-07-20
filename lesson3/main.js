@@ -42,24 +42,31 @@
 // const num2 = prompt("Число 2?")
 // numbers(num1, num2)
 
-function twoMass(arr1, arr2) {
-    if(arr1.length > arr2.length){
-        console.log("arr1 > arr2")
-    } else if(arr1.length < arr2.length){
-        console.log("arr1 < arr2")
-    }
+// function twoMass(arr1, arr2) {
+//     if(arr1.length > arr2.length){
+//         console.log("arr1 > arr2")
+//     } else if(arr1.length < arr2.length){
+//         console.log("arr1 < arr2")
+//     }
+// }
+//
+// const arr1 = [232, 2342, 454, 34]
+// const arr2 = [5454, 2342, 5, 6, 5, 34]
+//
+// // twoMass(arr1, arr2)
+//
+// function bt() {
+//     let line = "*"
+//     while(line.length < 7){
+//         console.log(line)
+//         line = line + "*"
+//     }
+// }
+// bt()
+
+function argument(num){
+    console.log(num.length)
 }
+const num = "test"
 
-const arr1 = [232, 2342, 454, 34]
-const arr2 = [5454, 2342, 5, 6, 5, 34]
-
-// twoMass(arr1, arr2)
-
-function bt() {
-    let line = "*"
-    while(line.length < 7){
-        console.log(line)
-        line = line + "*"
-    }
-}
-bt()
+argument(num)
