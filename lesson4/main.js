@@ -7,6 +7,7 @@ const block3 = document.getElementById("block3")
 
 block3.classList.add("newClass")
 
+const main = []
 // block3.classList.remove("block")
 
 // console.log(block3.classList)
